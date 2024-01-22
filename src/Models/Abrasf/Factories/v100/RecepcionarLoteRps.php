@@ -91,7 +91,8 @@ class RecepcionarLoteRps extends RecepcionarLoteRpsBase
         $dom->appChild($loteRps, $listaRps, 'Adicionando tag ListaRps a LoteRps');
 
         foreach ($rpss as $rps) {
-            RenderRps::appendRps($rps, $this->timezone, $this->certificate, $this->algorithm, $dom, $listaRps);
+
+            RenderRps::appendRps($rps, $this->timezone, $this->certificate, $dom, $listaRps, $this->algorithm);
         }
 
 
@@ -109,7 +110,7 @@ class RecepcionarLoteRps extends RecepcionarLoteRpsBase
             true
         );
         $body = $this->clear($body);
-        
+
         $this->validar($versao, $body, $this->schemeFolder, $xsd, '', $this->cmun);
 
         return $body;

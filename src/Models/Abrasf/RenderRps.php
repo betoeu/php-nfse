@@ -63,9 +63,9 @@ abstract class RenderRps
         $data,
         \DateTimeZone $timezone,
         Certificate $certificate,
-        $algorithm = OPENSSL_ALGO_SHA1,
         &$dom,
-        &$element
+        &$element,
+        $algorithm = OPENSSL_ALGO_SHA1
     ) {
     }
 
