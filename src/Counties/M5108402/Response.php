@@ -16,7 +16,7 @@ namespace NFePHP\NFSe\Counties\M5108402;
  * @link      http://github.com/nfephp-org/sped-nfse for the canonical source repository
  */
 
-use NFePHP\NFSe\Models\Issnet\Response as ResponseModel;
+use NFePHP\NFSe\Models\Abaco\Response as ResponseModel;
 
 class Response extends ResponseModel
 {

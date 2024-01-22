@@ -5,7 +5,7 @@ namespace NFePHP\NFSe\Counties\M5108402;
 /**
  * Classe a construção do xml da NFSe
  * para a Cidade de Várzea Grande MT
- * conforme o modelo Abaco
+ * conforme o modelo ISSNET
  *
  * @category  NFePHP
  * @package   NFePHP\NFSe\Counties\M5108402\Convert
@@ -17,7 +17,7 @@ namespace NFePHP\NFSe\Counties\M5108402;
  * @link      http://github.com/nfephp-org/sped-nfse for the canonical source repository
  */
 
-use NFePHP\NFSe\Models\Abaco\Convert as ConvertModel;
+use NFePHP\NFSe\Models\Issnet\Convert as ConvertModel;
 
 class Convert extends ConvertModel
 {

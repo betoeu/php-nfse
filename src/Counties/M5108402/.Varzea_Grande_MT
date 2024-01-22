@@ -1,9 +1,9 @@
 Varzea_Grande MT
 IBGE: 5108402
 SIAF:
-Padrão: ISSNET (Abrasf 1.0 modificado)
+Padrão:  Abaco v2010
 SOAP Version: 1.1 e/ou SOAP Version: 1.2
-URL Homologação: http://www.issnetonline.com.br/webserviceabrasf/homologacao/servicos.asmx
+URL Homologação:
 URL Produção:
-xmlns: http://www.issnetonline.com.br/webservice/nfd
+xmlns: 
 Atenção com os XSD: nesse caso existe um prefixo "servico_" no nome e não tem sulfixos

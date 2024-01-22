@@ -17,9 +17,8 @@ namespace NFePHP\NFSe\Counties\M5108402;
  * @link      http://github.com/nfephp-org/sped-nfse for the canonical source repository
  */
 
-use NFePHP\NFSe\Models\Issnet\Rps as RpsModel;
+use NFePHP\NFSe\Models\Abaco\Rps as RpsModel;
 
 class Rps extends RpsModel
 {
-
 }
